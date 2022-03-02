@@ -10,10 +10,10 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.AB, function () {
     basic.clearScreen()
-    basic.showNumber(ball)
-    basic.showNumber(strike)
     strike = 0
     ball = 0
+    basic.showNumber(strike)
+    basic.showNumber(ball)
 })
 input.onButtonPressed(Button.B, function () {
     ball += 1
